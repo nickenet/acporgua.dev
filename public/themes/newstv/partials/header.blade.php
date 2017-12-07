@@ -3,23 +3,23 @@
             <nav class="nav-top">
                 <div class="container">
 
-                    {!!
+                    <!--{!!
                         Menu::generateMenu([
                             'slug' => 'right-menu',
                             'options' => ['class' => 'pull-left'],
                         ])
-                    !!}
+                    !!}-->
 
-                    <div class="pull-right">
+                   <!-- <div class="pull-right">
                         <div class="hi-icon-wrap hi-icon-effect-3 hi-icon-effect-3a">
                             <a href="{{ setting('facebook') }}" title="Facebook" class="hi-icon fa fa-facebook"></a>
                             <a href="{{ setting('twitter') }}" title="Twitter" class="hi-icon fa fa-google-plus"></a>
                             <a href="{{ setting('google_plus') }}" title="Google" class="hi-icon fa fa-youtube"></a>
                         </div>
-                    </div>
+                    </div>-->
                 </div>
             </nav>
-            <div class="header-content">
+            <div class="header-content nav-top">
                 <div class="container">
                     <h1 class="logo">
                         <a href="{{ url('/') }}" title="{{ setting('site_title') }}">
@@ -27,8 +27,23 @@
                         </a>
                     </h1>
                     <div class="header-content-right">
-                        <p><img alt="Banner" src="{{ url(ThemeOption::getOption('top_banner', '/themes/newstv/assets/images/banner.png')) }}" style="width: 728px; height: 90px;"></p>
+                        <div class="hi-icon-wrap hi-icon-effect-3 hi-icon-effect-3a">
+                            &nbsp
+                        </div>
+
+                        <div class="pull-right">
+                            <div class="hi-icon-wrap hi-icon-effect-3 hi-icon-effect-3a">
+                                <a href="{{ setting('facebook') }}" title="Facebook" class="hi-icon fa fa-facebook"></a>
+                                <a href="{{ setting('twitter') }}" title="Twitter" class="hi-icon fa fa-google-plus"></a>
+                                <a href="{{ setting('google_plus') }}" title="Google" class="hi-icon fa fa-youtube"></a>
+                            </div>
+                        </div>
+
+                       <!-- <p><img alt="Banner" src="{{ url(ThemeOption::getOption('top_banner', '/themes/newstv/assets/images/banner.png')) }}" style="width: 728px; height: 90px;"></p>-->
                     </div>
+
+
+
                 </div>
             </div>
         </div>

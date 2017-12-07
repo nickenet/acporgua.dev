@@ -36,7 +36,7 @@ return [
         'before' => function($theme)
         {
             // You can remove this line anytime.
-            $theme->setTitle('Copyright ©  2016 - botble.com');
+            $theme->setTitle('Copyright ©  2017 - acp.org.ua');
         },
 
         // Listen on event before render a theme,
@@ -51,7 +51,7 @@ return [
             $theme->asset()->container('footer')->usePath()->add('demo-js', 'js/demo.js');
 
             $theme->asset()->usePath()->add('style-css', 'css/style.css');
-            $theme->asset()->usePath()->add('red-theme-css', 'css/' . ThemeOption::getOption('theme_color', 'red') . '.css', [], ['id' => 'style_color']);
+            $theme->asset()->usePath()->add('blue-theme-css', 'css/' . ThemeOption::getOption('theme_color', 'blue') . '.css', [], ['id' => 'style_color']);
             $theme->asset()->usePath()->add('demo-css', 'css/demo.min.css');
             $theme->asset()->usePath()->add('custom-css', 'css/custom.css');
 

@@ -9,6 +9,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
         <meta name="format-detection" content="telephone=no">
         <meta name="apple-mobile-web-app-capable" content="yes">
+	<link rel="icon shortcut" href="{{ url('/uploads/favicon.png') }}">
         <!-- Fonts-->
         <link href="https://fonts.googleapis.com/css?family=Pattaya|Roboto:400,500,700|Noto+Sans:400,700&amp;subset=vietnamese" rel="stylesheet">
         <!-- CSS Library-->
